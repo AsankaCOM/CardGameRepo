@@ -29,6 +29,7 @@ public class Card implements Comparable<Card> {
 		return suit;
 	}
 
+        //compare 2 cards  
 	public int compareTo(Card card) {
 		short rank = card.getRank();
 
