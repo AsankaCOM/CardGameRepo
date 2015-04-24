@@ -42,11 +42,13 @@ public class Card implements Comparable<Card> {
 
 		return 0;
 	}
-
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (obj instanceof Card) {
 			Card card = (Card) obj;
+			
+			//the Rank and Suite should be matched
 			if (card.getRank() == this.rank && card.getSuit() == this.suit) {
 				return true;
 			}
