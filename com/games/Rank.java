@@ -1,6 +1,7 @@
 package com.games;
 
 public enum Rank {
+   //The rank defintion
    RANK_1(1, "Rank 1"){
 	   @Override
        boolean matches(Card[] cards) {
