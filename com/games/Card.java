@@ -1,5 +1,5 @@
 package com.games;
-
+//test change
 public class Card implements Comparable<Card> {
 	private short rank;
 	private short suit;
